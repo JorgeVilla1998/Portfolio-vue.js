@@ -9,7 +9,7 @@ const text = ref('');
 
 <template>
 <div>
-
+<p>PrimeVue</p>
 </div>
 
 </template>
