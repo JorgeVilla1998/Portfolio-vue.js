@@ -41,7 +41,7 @@ app.use(PrimeVue, {
             darkModeSelector: '.my-app-dark',
             cssLayer: {
                 name: 'primevue',
-                order: 'theme, base, primevue'
+                order: 'tailwind-base, primevue, tailwind-utilities' // Define the order of CSS layers
             }
         }
     }
