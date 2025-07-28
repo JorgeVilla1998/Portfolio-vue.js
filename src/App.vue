@@ -8,9 +8,7 @@ import AccordionContent from 'primevue/accordioncontent'; // Importing PrimeVue 
 import Card from 'primevue/card'; // Importing PrimeVue Card component
 
 
-function toggleDarkMode() {
-    document.documentElement.classList.toggle('my-app-dark');
-}
+const toggleMode = () => document.documentElement.classList.toggle('my-app-dark');
 
 </script>
 
@@ -18,7 +16,7 @@ function toggleDarkMode() {
 
 <!-- Button to toggle dark/light mode -->
 
-<Button label="Theme" @click="toggleDarkMode()" />
+<Button label="Theme" @click="toggleMode" />
 
 
 <div>

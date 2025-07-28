@@ -43,4 +43,5 @@ app.use(PrimeVue, {
     }
 });
 
-createApp(App).mount('#app') // Initialize the Vue application and mount it to the DOM
+
+app.mount('#app') // Initialize the Vue application and mount it to the DOM
